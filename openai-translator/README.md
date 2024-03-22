@@ -8,6 +8,12 @@
 </p>
 
 
+## 作业运行方式
+````
+python ai_translator/main.py --model_type OpenAIModel --openai_api_key $OPENAI_API_KEY  --openai_model gpt-3.5-turbo
+````
+
+
 ## Introduction
 
 OpenAI Translator is an AI-powered translation tool designed to translate English PDF books to Chinese. The tool leverages large language models (LLMs) like ChatGLM and OpenAI's GPT-3 and GPT-3.5 Turbo for translation. It's built in Python and has a flexible, modular, and object-oriented design. 
@@ -33,9 +39,9 @@ The OpenAI Translator is still in its early stages of development, and I'm activ
 - [X] Flexible configuration through a YAML file or command-line arguments.
 - [X] Timeouts and error handling for robust translation operations.
 - [X] Modular and object-oriented design for easy customization and extension.
-- [ ] Implement a graphical user interface (GUI) for easier use.
+- [X] Implement a graphical user interface (GUI) for easier use.
 - [ ] Add support for batch processing of multiple PDF files.
-- [ ] Create a web service or API to enable usage in web applications.
+- [X] Create a web service or API to enable usage in web applications.
 - [ ] Add support for other languages and translation directions.
 - [ ] Add support for preserving the original layout and formatting of the source PDF.
 - [ ] Improve translation quality by using custom-trained translation models.
